@@ -1,0 +1,12 @@
+package radiobutton2;
+
+import javax.swing.JFrame;
+
+public class RadioPrueba {
+
+	public static void main(String[] args) {
+		MarcoRadio myFrame = new MarcoRadio();
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+}
