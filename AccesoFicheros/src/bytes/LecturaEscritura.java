@@ -12,7 +12,7 @@ public class LecturaEscritura {
 		int contador = 0;
 		int[] datosEntrada = new int[631990];
 
-		try (FileInputStream lectura = new FileInputStream("C:\\Users\\cristian.cardozo\\Pictures\\1.png")) {
+		try (FileInputStream lectura = new FileInputStream("/Users/cristian.cardozo/Pictures/1.png")) {
 			boolean finalArchivo = false;
 			while (!finalArchivo) {
 				int byteEntrada = lectura.read();
@@ -30,14 +30,14 @@ public class LecturaEscritura {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Tamaño de la imagen en bytes " + (contador - 1));
+		System.out.println("Tamaï¿½o de la imagen en bytes " + (contador - 1));
 		escribir(datosEntrada);
 		
 	}
 	
 	public static void escribir(int... datosNuevoFichero) {
 		
-		try(FileOutputStream escritura = new FileOutputStream("C:\\Users\\cristian.cardozo\\Pictures\\new1.png");){
+		try(FileOutputStream escritura = new FileOutputStream("/Users/cristian.cardozo/Pictures/new1.png");){
 			for (int i = 0; i < datosNuevoFichero.length; i++) {
 				escritura.write(datosNuevoFichero[i]);
 			}

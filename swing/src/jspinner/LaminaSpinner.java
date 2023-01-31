@@ -18,7 +18,7 @@ public class LaminaSpinner extends JPanel {
 //		String lista[] = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
 		
 //		JSpinner control = new JSpinner(new SpinnerListModel(lista));
-		//para indicar el rango y los saltos de los números
+		//para indicar el rango y los saltos de los nï¿½meros
 		//JSpinner control = new JSpinner(new SpinnerNumberModel(5, 0, 10, 2));
 		
 		//especificar mi propia clse de comportamiento
@@ -33,12 +33,12 @@ public class LaminaSpinner extends JPanel {
 
 			@Override
 			public Object getNextValue() {
-				return super.getPreviousValue();
+				return super.getNextValue();
 			}
 			
 			@Override
 			public Object getPreviousValue() {
-				return super.getNextValue();
+				return super.getPreviousValue();
 			}
 		});
 		Dimension d = new Dimension(150, 20);

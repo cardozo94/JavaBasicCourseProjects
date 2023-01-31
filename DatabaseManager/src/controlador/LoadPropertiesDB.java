@@ -13,7 +13,7 @@ public class LoadPropertiesDB {
 	public LoadPropertiesDB() throws IOException {
 
 		// C:\Users\cristian.cardozo\Documents\Workspace\PildorasInf\DatabaseManager
-		propertiesFile = new FileReader("./datos_configs.txt");
+		propertiesFile = new FileReader("./datos_config.txt");
 		BufferedReader buffer = new BufferedReader(propertiesFile);
 		for (int i = 0; i < properties.length; i++) {
 			properties[i] = buffer.readLine();

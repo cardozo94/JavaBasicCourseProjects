@@ -21,7 +21,7 @@ public class Serializando {
 //				ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
 //				"C:\\Users\\cristian.cardozo\\Documents\\Workspace\\PildorasInf\\AccesoFicheros\\empleados.dat"));){
 				ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-						"C:\\Users\\cristian.cardozo\\Documents\\Workspace\\PildorasInf\\AccesoFicheros\\empleados.dat"));) {
+						"./empleados.dat"));) {
 
 //			writer.writeObject(personal);
 			

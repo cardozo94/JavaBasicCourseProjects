@@ -5,7 +5,7 @@ import java.io.File;
 public class AccesoFichero {
 
 	public static void main(String[] args) {
-		String rutaString = "C:\\Users\\cristian.cardozo\\Documents\\PildorasInf\\Java\\ArchivosDirectorios";
+		String rutaString = "/Users/cristian.cardozo/Documents/PildorasInf/Java/ArchivosDirectorios";
 		rutaString.replace("\\", rutaString);
 		File ruta = new File(rutaString);
 		System.out.println(ruta.getAbsolutePath());

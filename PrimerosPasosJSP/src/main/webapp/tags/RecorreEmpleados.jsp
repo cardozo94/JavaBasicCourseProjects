@@ -7,7 +7,7 @@
 	ArrayList<Empleado> datos = new ArrayList<>();
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	try{
-		Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp","root", "MySQLP@ss2022");
+		Connection conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp","root", "");
 		Statement stmt = conn.createStatement();
 		String select ="SELECT * FROM empleados";
 		ResultSet rs = stmt.executeQuery(select);

@@ -10,7 +10,7 @@ public class Escribiendo {
 	public void escribir() {
 		String frase = "Esta es una frase de prueba de escritura 2";
 		
-		try (FileWriter escritura = new FileWriter("C:\\Users\\cristian.cardozo\\Desktop\\nuevo.txt", true);){
+		try (FileWriter escritura = new FileWriter("/Users/cristian.cardozo/Desktop/nuevo.txt", true);){
 			
 			for (int i = 0; i < frase.length(); i++) {
 				escritura.write(frase.charAt(i));
@@ -25,7 +25,7 @@ public class Escribiendo {
 
 		
 		try {
-			File file = new File("C:\\Users\\cristian.cardozo\\Desktop\\nuevoBuffer.txt");
+			File file = new File("/Users/cristian.cardozo/Desktop/nuevoBuffer.txt");
 			 if (!file.exists()) {
 			     file.createNewFile();
 			  }

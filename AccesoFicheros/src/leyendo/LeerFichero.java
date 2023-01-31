@@ -9,7 +9,7 @@ public class LeerFichero {
 
 	public void lee() {
 
-		try (FileReader entrada = new FileReader("C:\\Users\\cristian.cardozo\\Desktop\\ejemplo.txt");){
+		try (FileReader entrada = new FileReader("/Users/cristian.cardozo/Desktop/ejemplo.txt");){
 			
 
 			int c = entrada.read();
@@ -31,7 +31,7 @@ public class LeerFichero {
 	
 	public void leeConBuffer() {
 
-		try (FileReader entrada = new FileReader("C:\\Users\\cristian.cardozo\\Desktop\\ejemplo.txt");){
+		try (FileReader entrada = new FileReader("/Users/cristian.cardozo/Desktop/ejemplo.txt");){
 			
 			BufferedReader buffer = new BufferedReader(entrada);
 			String linea = "";

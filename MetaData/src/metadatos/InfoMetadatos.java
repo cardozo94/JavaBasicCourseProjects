@@ -18,14 +18,14 @@ public class InfoMetadatos {
 		Connection conn = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "MySQLP@ss2022");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "");
 
 			DatabaseMetaData metadata = conn.getMetaData();
 
 			System.out.println("Gestor de base de datos: " + metadata.getDatabaseProductName());
-			System.out.println("Versión del gestor: " + metadata.getDatabaseProductVersion());
+			System.out.println("Versiï¿½n del gestor: " + metadata.getDatabaseProductVersion());
 			System.out.println("Nombre del driver: " + metadata.getDriverName());
-			System.out.println("Versión del driver: " + metadata.getDriverVersion());
+			System.out.println("Versiï¿½n del driver: " + metadata.getDriverVersion());
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -42,7 +42,7 @@ public class InfoMetadatos {
 		ResultSet rs = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "MySQLP@ss2022");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "");
 
 			DatabaseMetaData metadata = conn.getMetaData();
 
@@ -68,7 +68,7 @@ public class InfoMetadatos {
 		ResultSet rs = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "MySQLP@ss2022");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "");
 
 			DatabaseMetaData metadata = conn.getMetaData();
 
