@@ -18,7 +18,7 @@
 			System.out.println(usuario);
 			System.out.println(contra);
 			try {
-				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp", "root", "MySQLP@ss2022");
+				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp", "root", "");
 				PreparedStatement stmt = conn.prepareStatement("SELECT * FROM usuarios WHERE usuario=? AND contrasena=?", //);
 				ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
 				stmt.setString(1, usuario);

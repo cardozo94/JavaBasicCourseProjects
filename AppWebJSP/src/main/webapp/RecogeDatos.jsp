@@ -20,7 +20,7 @@
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			try{
-				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp", "root", "MySQLP@ss2022");
+				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp", "root", "");
 				Statement stmt = conn.createStatement();
 				String sql = "INSERT INTO usuarios (nombre, apellido, usuario, contrasena, pais, tecnologia)"
 				+" VALUES ('"+nombre+"','"+apellido+"','"+usuario+"','"+contra+"','"+pais+"','"+tecnologia+"')";
