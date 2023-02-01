@@ -29,7 +29,7 @@ public class PrimerServlet extends HttpServlet {
 		
 		//Especificando formato de respuesta
 		PrintWriter salida = response.getWriter();
-		//Generar respuesta de la petición
+		//Generar respuesta de la peticiÃ³n
 		salida.println("<html><body>");
 		salida.println("<h1 style ='text-aling:center'>Prueba Servlet</h1>");
 		salida.println("");
