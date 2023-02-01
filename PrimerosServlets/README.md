@@ -1,7 +1,7 @@
 # Servlets
 
 This is a project that I create following the tutorial on youtube [Curso de Java desde 0][def] to strength my knowledge in Java and learn some advanced concepts.
-It has some dependencies, run over Tomcat 10.0.20:
+It has some dependencies, run over Tomcat 10.0.20 and Java 11:
 
 - jakarta.servlet.jsp.jstl-2.0.0.jar
 - jakarta.servlet.jsp.jstl-api-2.0.0.jar
