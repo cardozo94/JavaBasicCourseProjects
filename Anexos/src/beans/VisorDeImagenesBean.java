@@ -28,9 +28,9 @@ public class VisorDeImagenesBean extends JLabel {
 	}
 
 	/**
-	 * MÈtodo clave para escoger una imagen
+	 * M√©todo clave para escoger una imagen
 	 * 
-	 * @param elegirImagen. Este par·metro permitir· escoger una imagen
+	 * @param elegirImagen. Este par√°metro permitir√° escoger una imagen
 	 */
 	public void setEscogeImagen(String elegirImagen) {
 		try {
@@ -44,8 +44,7 @@ public class VisorDeImagenesBean extends JLabel {
 
 	/**
 	 * 
-	 * @return Devuelve la ruta de la imagen escogida con el mÈtodo setEscogeImagen
-	 * @param No recibe par·metro alguno
+	 * @return Devuelve la ruta de la imagen escogida con el m√©todo setEscogeImagen
 	 */
 	public String getEscogeImagen() {
 		if (archivo == null) {

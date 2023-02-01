@@ -20,11 +20,11 @@ public class MarcoArbol extends JFrame {
 		DefaultMutableTreeNode raiz = new DefaultMutableTreeNode("Mundo");
 		DefaultMutableTreeNode continente = new DefaultMutableTreeNode("Europa");
 		raiz.add(continente);
-		DefaultMutableTreeNode pais = new DefaultMutableTreeNode("España");
+		DefaultMutableTreeNode pais = new DefaultMutableTreeNode("EspaÃ±a");
 		continente.add(pais);
 		DefaultMutableTreeNode comunidad = new DefaultMutableTreeNode("Madrid");
 		pais.add(comunidad);
-		DefaultMutableTreeNode ciudad = new DefaultMutableTreeNode("Móstoles");
+		DefaultMutableTreeNode ciudad = new DefaultMutableTreeNode("MÃ¡stoles");
 		comunidad.add(ciudad);
 		ciudad = new DefaultMutableTreeNode("Alcobendas");
 		comunidad.add(ciudad);

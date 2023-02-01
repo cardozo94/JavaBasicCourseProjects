@@ -17,7 +17,7 @@ public class DBHandler {
 
 	public DBHandler() {
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "MySQLP@ss2022");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

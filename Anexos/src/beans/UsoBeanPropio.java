@@ -43,7 +43,7 @@ public class UsoBeanPropio extends JFrame {
 		setContentPane(contentPane);
 		
 		VisorDeImagenesBean visorDeImagenesBean = new VisorDeImagenesBean();
-		visorDeImagenesBean.setEscogeImagen("C:\\Users\\cristian.cardozo\\Pictures\\download.png");
+		visorDeImagenesBean.setEscogeImagen("/Users/cristian.cardozo/Downloads/download.png");
 		visorDeImagenesBean.setBounds(88, 82, 600, 400);
 		contentPane.add(visorDeImagenesBean);
 	}

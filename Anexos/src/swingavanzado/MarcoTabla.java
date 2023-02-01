@@ -27,7 +27,7 @@ public class MarcoTabla extends JFrame {
 			{"Saturno", 60268.0, 18, true},
 			{"Urano", 25559.0, 17, true},
 			{"Neptuno", 24766.0, 8, true},
-			{"Plutón", 1137.0, 1, false},
+			{"PlutÃ³n", 1137.0, 1, false},
 	};
 	
 	public MarcoTabla() {
